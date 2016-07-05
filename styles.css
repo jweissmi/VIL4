@@ -1,0 +1,73 @@
+a:link {color: #000000;}
+a:visited {color: #000000;}
+a:focus, a:hover, a:active {color: #808080;}
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom: 120px;
+}
+
+.wrapper{
+	margin:10px auto;
+	width:100%;
+	position: relative;
+
+}
+
+#header {
+    background-color:#009CDC;
+    color:white;
+    text-align:center;
+    padding:2px;
+}
+
+#nav {
+    background-color:#eeeeee;
+    float:left;
+    padding:5px;
+    position: relative;
+    left: 0px;
+    top:3px;
+    margin:0 50px 0 0;
+    width: 20%; 
+}
+
+#section {
+    padding:5px;
+    margin-left: 20%
+}
+
+#footer {
+    background-color:#009CDC;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;     
+}
+
+.vehicleSelector{
+	display:block;
+	height: 30px;
+	width: 520px;
+	position: relative;
+	float: none;
+	right: 0px;
+	vertical-align: top;
+	border: 2px solid;
+    color: #009CDC;
+}
+
+.button {
+    background-color: #009CDC; /* MOTOR Blue */
+    border: 2px solid;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;   
+    font-size: 16px;
+}
+
